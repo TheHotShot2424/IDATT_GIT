@@ -1,2 +1,3 @@
-# IDATT_GIT
-Programmering 1
+# Javaprosjekter
+
+Dette er alle prosjekter gjort for java. 
