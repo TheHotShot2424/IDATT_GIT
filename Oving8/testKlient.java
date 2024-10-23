@@ -2,7 +2,7 @@ package Oving8;
 
 import java.util.Scanner;
 
-public class klient {
+public class testKlient {
     public static void main(String[] args) {
         Scanner moiScanner = new Scanner(System.in);
 

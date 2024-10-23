@@ -59,7 +59,7 @@ public class ArbTaker {
     
     //methods
     public double ArbtkrSkattetrekk(){
-        return (getMaanedslonn() * getSkatteprosent());
+        return (getMaanedslonn() * (getSkatteprosent()/100));
     }
     public double bruttolonn(){
         return getMaanedslonn() * 12;
@@ -77,7 +77,7 @@ public class ArbTaker {
         return naatidAar - getAnsettelseaar();
     }
     public boolean OverVistAar(int aar){
-        if(aar > getAnsettelseaar()){
+        if(aar > (naatidAar - getAnsettelseaar())){
             return true;
         }
         return false;
