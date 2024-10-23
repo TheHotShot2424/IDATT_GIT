@@ -15,6 +15,7 @@ public class Matrise {
     //constructor to initialize matrix 3x3
     public Matrise(int[][] matrix){
         matrixLength = matrix.length; //for lengde
+
         this.matrix_holder = new int[matrix.length][matrix.length]; //initialize internal array 
         for(int i = 0; i < matrix.length; i++){
             System.arraycopy(matrix[i], 0, this.matrix_holder[i], 0, matrix.length); //kopierer rader fra matrix til matrix_holder. Kopierer i tillegg elementer (3 i dette tilfelle)

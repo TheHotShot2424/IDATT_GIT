@@ -27,8 +27,8 @@ public class tekstAnalyse {
     public tekstAnalyse(String tekst){
         for(int i = 0; i < tekst.length(); i++){ // lengde på et Streng objekt må bruke length()
             char tegn = tekst.charAt(i); // få tak i bestemt tegn på index
-            if(tegn >= 'a' && tegn <= 'z'){
-                antallTegn[tegn-'a']++; //hvis tegn mellom små alfabet; tegn-'a' gir index og inkrementerer plass, f.eks. 'h'-'a' = 7 index, og da skal 7. plass i array ++ fra 0
+            if(tegn >= 'a' && tegn <= 'z'){ // Java har innebygd ASCII, så den vet alfabetet og den char
+                antallTegn[tegn-'a']++; //hvis tegn mellom små alfabet; tegn-'a' gir index og inkrementerer plass, f.eks. 'h'-'a' = 104 - 97 = 7 index, og da skal 7. plass i array ++ fra 0
                 totalBokstaver++;
             }
             else{
