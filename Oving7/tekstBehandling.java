@@ -1,7 +1,5 @@
 package Oving7;
 
-import java.util.Arrays;
-
 public class tekstBehandling {
     //decleration of instance variable/attributes
     private final String EnStreng;
