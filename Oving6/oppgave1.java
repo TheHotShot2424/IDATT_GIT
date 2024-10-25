@@ -6,7 +6,7 @@ import java.util.Random;
 public class oppgave1 {
     public static void main(String[] args){
         Random random = new Random();
-    
+        
         int[] antall = new int[10]; //lager array [0,0,0,0,0,0,0,0,0,0]
     
         for(int i = 0; i < 1000; i++){

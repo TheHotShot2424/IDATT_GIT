@@ -3,7 +3,7 @@ package Oving4;
 import java.util.Scanner;
 
 class Valuta {
-    
+ 
     // Declaretion
     private double valutaRate;
     private String navn;

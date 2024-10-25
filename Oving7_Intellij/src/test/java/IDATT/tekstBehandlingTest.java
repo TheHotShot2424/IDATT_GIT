@@ -10,7 +10,9 @@ class tekstBehandlingTest {
 
   @Test
   void antallOrd() {
+    //arrange
     var tekstBehandling = new tekstBehandling("Hællæ"); //istedenfor datatype tekstBehandling, kan java forstå dette ved bare bruke "var"
+    //act og assert
     assertEquals(5, tekstBehandling.antallOrd());
   }
 

@@ -38,7 +38,7 @@ public class Matrise {
     public Matrise multiply(Matrise matrix){
         
         int C[][] = new int[matrixLength][matrixLength];
-
+        
         for(int row = 0; row < matrixLength; row++){
             for(int col = 0; col < matrixLength; col++){
                 C[row][col] = 0; //initialize to 0. Må gjøre dette for å skrive over noen evt. gamle verdier på [0][0]

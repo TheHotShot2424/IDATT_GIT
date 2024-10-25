@@ -1,6 +1,5 @@
 package IDATT;
 
-import java.util.Arrays;
 //for å lage testklasse - control + shift + t
 
 public class tekstBehandling {
