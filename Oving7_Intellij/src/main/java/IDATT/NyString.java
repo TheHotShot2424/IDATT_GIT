@@ -11,11 +11,11 @@ public class NyString {
 
   //method
   public String forkortning(){
-    String[] a = minStreng.split(" ");
+    String[] a = minStreng.split(" "); // Lager kopi av minStreng -> {En,mann,går,der.}
     String store = "";
     for(int i = 0; i < a.length; i++){
       char firstLetter = a[i].charAt(0);
-      store = store + firstLetter;
+      store = store + firstLetter; // Emgd
     }
     return store;
   }
