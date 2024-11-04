@@ -7,11 +7,9 @@ public class ArbTaker {
   int naatidAar = kalender.get(java.util.Calendar.YEAR);
 
   //declerating instance variable/attributes
-  private Person personalia;
-  private int arbtakernr;
-  private int ansettelseaar;
-  private double maanedslonn;
-  private double skatteprosent;
+  private Person personalia; //tar inn klasse fra Person
+  private int arbtakernr, ansettelseaar;
+  private double maanedslonn, skatteprosent;
 
   //constructor
   public ArbTaker(Person personalia, int arbtakernr, int ansettelseaar, int maanedslonn, double skatteprosent){
@@ -23,8 +21,8 @@ public class ArbTaker {
 
   }
 
-  //getters og setters
-  //Slett de du ikke bruker!
+  //------Methods------
+  //getters og setters  -  slett de du ikke bruker!
   public Person getPersonalia(){
     return personalia;
   }
@@ -56,7 +54,7 @@ public class ArbTaker {
     this.skatteprosent = skatteprosent;
   }
 
-  //methods
+
   public double ArbtkrSkattetrekk(){
     return (getMaanedslonn() * (getSkatteprosent()/100));
   }
